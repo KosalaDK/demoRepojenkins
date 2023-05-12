@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 
-@app.get("/mypage")
+@app.get("/")
 async def root():
     return {"message": "Welcome to the Fish Identifications API!"}
 
